@@ -1,4 +1,5 @@
-package com.gison.samples.kotlindemo
+package com.gison.samples.kotlindemo.crud
 
-interface MessageRepository {
-}
+import org.springframework.data.repository.CrudRepository
+
+interface MessageRepository : CrudRepository<Message, String>

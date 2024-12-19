@@ -1,4 +1,4 @@
-package com.gison.samples.kotlindemo
+package com.gison.samples.kotlindemo.h2
 
 import org.springframework.jdbc.core.JdbcTemplate
 import org.springframework.stereotype.Service
